@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>تماس با ما | BioLearn</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vazir-font@27.2.0/dist/font-face.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .contact-form {
+      max-width: 600px;
+      margin: 2rem auto;
+      background: var(--white);
+      padding: 2rem;
+      border-radius: 12px;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      font-family: inherit;
+    }
+    .contact-form button {
+      background: var(--green-main);
+      color: white;
+      border: none;
+      padding: 0.7rem 2rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header class="section-header">
+    <div class="container">
+      <span class="section-title">✉️ تماس با ما</span>
+      <a href="../index.html" class="back-link">🏠 بازگشت به خانه</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <form class="contact-form">
+      <input type="text" placeholder="نام شما" required>
+      <input type="email" placeholder="ایمیل" required>
+      <textarea rows="5" placeholder="پیام شما..."></textarea>
+      <button type="submit">ارسال</button>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <!-- فوتر مشابه -->
+  </footer>
+  <script src="../js/main.js"></script>
+</body>
+</html>
